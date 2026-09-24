@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { checkSlugAvailability } from '../services/articleService';
-import { slugify } from '../../lib/slug';
+import { slugify } from '../lib/slug';
 
 interface Props {
   domainPrefix: string;
