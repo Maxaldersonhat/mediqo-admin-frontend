@@ -30,7 +30,6 @@ interface NavItem {
 const navItems: NavItem[] = [
   { name: 'Dashboard', href: '/dashboard', icon: LayoutDashboard },
   { name: 'Posts', href: '/posts/new', icon: StickyNotePlus },
-  { name: 'Media', href: '/media', icon: ImagePlus },
   {
     name: 'store',
     href: '/store',

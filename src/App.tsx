@@ -13,9 +13,7 @@ import SettingsPage from './pages/SettingsPage';
 import ArticlesPage from './pages/ArticlesPage';
 import ArticleDetailPage from './pages/ArticleDetailPage';
 
-function MediaPage() {
-  return <div className="p-8 text-sm text-gray-500">Media library — coming soon.</div>;
-}
+
 
 
 
@@ -27,7 +25,6 @@ export default function App() {
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/posts/new" element={<NewArticlePage />} />
         <Route path="/posts/:id/edit" element={<EditArticlePage />} />
-        <Route path="/media" element={<MediaPage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/products/new" element={<ProductAddPage />} />
         <Route path="/products/:id/edit" element={<ProductEditPage />} />
