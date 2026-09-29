@@ -23,6 +23,7 @@ export default function App() {
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
+        
         <Route path="/posts/new" element={<NewArticlePage />} />
         <Route path="/posts/:id/edit" element={<EditArticlePage />} />
         <Route path="/products" element={<ProductsPage />} />
