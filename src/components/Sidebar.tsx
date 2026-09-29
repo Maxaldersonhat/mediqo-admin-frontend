@@ -9,7 +9,6 @@ import {
   ChevronDown,
   ChevronLeft,
   StickyNotePlus,
-  ImagePlus,
   ShoppingCart,
   ChevronRight,
   Package,
